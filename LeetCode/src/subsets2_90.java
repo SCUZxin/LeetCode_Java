@@ -4,11 +4,11 @@ import java.util.Arrays;
 /**
  * 给定一个可能包含重复整数的列表，返回所有可能的子集（幂集）。注意事项：自己中的元素非减排序，该解决方案集不能包含重复的子集。
  */
-public class subsets_90 {
+public class subsets2_90 {
     public static void main(String[] args){
         int[] nums = new int[]{1,2,2};
 
-        System.out.println(new subsets_90().subsets(nums));
+        System.out.println(new subsets2_90().subsets(nums));
     }
 
     //牛客
