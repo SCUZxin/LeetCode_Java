@@ -32,7 +32,6 @@ public class insertion_sort_list_147 {
             //处理下一节点
             cur = next;
         }
-
         return dump.next;
     }
 }
